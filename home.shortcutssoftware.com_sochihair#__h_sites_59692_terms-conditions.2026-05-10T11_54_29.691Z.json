@@ -1,0 +1,196 @@
+{
+  "data": {
+    "markdown": "Sochi Hair\n\nTerms & conditions\n\n![](<Base64-Image-Removed>)\n\nONLINE BOOKING SERVICE TERMS & CONDITIONS\n\nYour Account\n\n\\-\\-\\---------------\n\nYou will need to register an account with us to use our online booking service.  You will need a valid email address/username and password for your account.  You are responsible for maintaining the confidentiality of your account, username and password and for restricting access to your computer.  You agree to accept responsibility for all activities that occur under your account, username and/or password.  You agree to provide only accurate, truthful information.\n\nWe reserve the right to refuse service and/or terminate accounts without prior notice if you violate these terms and conditions or if we decide, in our sole discretion, that it would be in our salon’s best interests to do so.\n\nUse of Online Booking Service\n\n\\-\\-\\-----------------------------------\n\nYou may only use the Online Booking Service if you are an adult or you are above the age of consent or you have the consent of an adult.  You are responsible for maintaining the secrecy of your passwords, login and account information.  You will be financially accountable for all uses of our site by you and anyone using your password and login information.  You may only use the Online Booking Service to make legitimate appointments.\n\nWe will use our reasonable commercial efforts to keep the Online Booking Service available on a 24 hour/7days a week basis, subject to necessary scheduled downtime for maintenance, unscheduled maintenance and system outages.  Your access to our Online Booking Service may not be uninterrupted or available at all times.  We cannot promise that our Online Booking Service will be error-free, that defects or errors will be corrected or that our site or the servers that make it available are free from viruses or other harmful components.  You will not use any device, software or routine that interferes or attempts to interfere with the normal operation of this site or take any action that imposes an unreasonable load on our computer equipment.\n\nNo-Show Policy\n\n\\-\\-\\------------------\n\nWe are committed to providing superior quality services to our clients. Customers are asked to cancel any appointments that they will be unable to honour at least 24 hours in advance of their reservation.  You may be required to telephone the salon directly to cancel.\n\n![](https://sc-ols.s3.amazonaws.com/company-21295/olb-feature-image.png?2026-05-10T11:00:00)\n\n![](<Base64-Image-Removed>)\n\nSochi Hair",
+    "branding": {
+      "colorScheme": "light",
+      "fonts": [
+        {
+          "family": "Roboto",
+          "role": "body"
+        }
+      ],
+      "colors": {
+        "primary": "#000000",
+        "accent": "#000000",
+        "background": "#FFFFFF",
+        "textPrimary": "#212529",
+        "link": "#000000"
+      },
+      "typography": {
+        "fontFamilies": {
+          "primary": "Roboto",
+          "heading": "Roboto"
+        },
+        "fontStacks": {
+          "heading": [
+            "Roboto"
+          ],
+          "body": [
+            "Roboto"
+          ],
+          "paragraph": [
+            "Roboto"
+          ]
+        },
+        "fontSizes": {
+          "h1": "16px",
+          "h2": "16px",
+          "body": "14.4px"
+        }
+      },
+      "spacing": {
+        "baseUnit": 8,
+        "borderRadius": "0px"
+      },
+      "components": {},
+      "images": {
+        "favicon": "https://home.shortcutssoftware.com/favicon.png",
+        "ogImage": null
+      },
+      "__llm_logo_reasoning": {
+        "selectedIndex": -1,
+        "reasoning": "No valid brand logo was found. The candidate provided does not match the brand inferred from the URL and page title, and lacks strong indicators like being in the header or linking to the homepage.",
+        "confidence": 0.3,
+        "rejected": true,
+        "source": "llm"
+      },
+      "personality": {
+        "tone": "professional",
+        "energy": "low",
+        "targetAudience": "unknown"
+      },
+      "designSystem": {
+        "framework": "custom",
+        "componentLibrary": ""
+      },
+      "confidence": {
+        "buttons": 0,
+        "colors": 0.9,
+        "overall": 0.45
+      },
+      "__llm_metadata": {
+        "logoSelection": {
+          "llmCalled": true,
+          "llmSucceeded": true,
+          "finalSource": "llm",
+          "rawLogoSelection": {
+            "selectedLogoIndex": -1,
+            "selectedLogoReasoning": "No valid brand logo was found. The candidate provided does not match the brand inferred from the URL and page title, and lacks strong indicators like being in the header or linking to the homepage.",
+            "confidence": 0.3
+          }
+        },
+        "buttonClassification": {
+          "llmCalled": false,
+          "llmSucceeded": false
+        }
+      }
+    },
+    "metadata": {
+      "title": "Online Booking",
+      "sc-ols-onlinebooking-version": "7.59.4.1.48994",
+      "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+      "language": "en-AU",
+      "favicon": "https://home.shortcutssoftware.com/favicon.png",
+      "scrapeId": "019e11bd-2b0d-755f-971b-0e77118f13cc",
+      "sourceURL": "https://home.shortcutssoftware.com/sochihair#/_h/sites/59692/terms-conditions",
+      "url": "https://home.shortcutssoftware.com/sochihair#/_h/sites/59692/terms-conditions",
+      "statusCode": 200,
+      "contentType": "text/html; charset=utf-8",
+      "timezone": "America/New_York",
+      "proxyUsed": "basic",
+      "indexId": "d462787e-4917-4aa5-a653-fe0176cc4ced",
+      "creditsUsed": 1,
+      "concurrencyLimited": false
+    },
+    "html": "<!DOCTYPE html><html lang=\"en-AU\" style=\"--default-primary-color: #555555; --primary-color: #E22E30;\">\n<body class=\"overflow-hidden\">\n    \n    <section id=\"widget\">\n        <scs-widget container-type=\"_h\" company-id=\"21295\" customer-key=\"eUefzH1uvs3JKptbnEn8\" customer-secret=\"04ZO8SBocgclCdoNbt9H\" access-token-key=\"yKM4f6ADAnWzK3M1DJcr\" access-token-secret=\"54Gp7qB7bdQAsWV37Ki0\" app-mode=\"false\" ng-version=\"20.3.9\" class=\"sc-styles\"><router-outlet></router-outlet><sc-booking _nghost-ng-c2816724389=\"\" class=\"border-0 d-flex flex-grow-1 h-100 modal-content rounded-0\"><!----><!----><div _ngcontent-ng-c2816724389=\"\" class=\"hosted-image d-block fade modal modal-widget show\" style=\"background-image: url(&quot;&quot;);\"><div _ngcontent-ng-c2816724389=\"\" class=\"modal-dialog modal-container modal-dialog-centered modal-dialog-scrollable hosted-site\"><div _ngcontent-ng-c2816724389=\"\" class=\"modal-content\"><div _ngcontent-ng-c2816724389=\"\" class=\"child-modals\"></div><router-outlet _ngcontent-ng-c2816724389=\"\"></router-outlet><sc-site-wrapper class=\"border-0 d-flex flex-grow-1 h-100 modal-content rounded-0\"><sc-header title=\"\"><nav class=\"navbar navbar-dark bg-primary px-2 d-flex justify-content-between flex-nowrap\" style=\"min-height: 52px;\"><div class=\"px-2 py-2 text-white text-decoration-none cursor-pointer d-flex align-items-center\"><fa-icon class=\"ng-fa-icon\"><svg data-prefix=\"far\" data-icon=\"bars\" class=\"svg-inline--fa fa-bars fa-undefined fa-pull-undefined\" role=\"img\" viewBox=\"0 0 448 512\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M0 88C0 74.7 10.7 64 24 64l400 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 112C10.7 112 0 101.3 0 88zM0 256c0-13.3 10.7-24 24-24l400 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 280c-13.3 0-24-10.7-24-24zM448 424c0 13.3-10.7 24-24 24L24 448c-13.3 0-24-10.7-24-24s10.7-24 24-24l400 0c13.3 0 24 10.7 24 24z\"></path></svg></fa-icon></div><!----><div class=\"text-white custom-header-title d-inline px-1\">Sochi Hair</div><!----><div class=\"px-2 py-2 text-primary text-decoration-none d-flex align-items-center\"><fa-icon class=\"ng-fa-icon\"><svg data-prefix=\"far\" data-icon=\"bars\" class=\"svg-inline--fa fa-bars fa-undefined fa-pull-undefined\" role=\"img\" viewBox=\"0 0 448 512\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M0 88C0 74.7 10.7 64 24 64l400 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 112C10.7 112 0 101.3 0 88zM0 256c0-13.3 10.7-24 24-24l400 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 280c-13.3 0-24-10.7-24-24zM448 424c0 13.3-10.7 24-24 24L24 448c-13.3 0-24-10.7-24-24s10.7-24 24-24l400 0c13.3 0 24 10.7 24 24z\"></path></svg></fa-icon></div><!----><!----><!----><!----><!----></nav><!----><!----></sc-header><!----><!----><div class=\"d-flex modal-body other-hosted-page p-0\"><div class=\"flex-fill\"><router-outlet></router-outlet><sc-terms-condition _nghost-ng-c2629771415=\"\" class=\"border-0 d-flex flex-grow-1 h-100 modal-content rounded-0\"><sc-header _ngcontent-ng-c2629771415=\"\"><!----><nav class=\"navbar bg-secondary ps-1 pe-1\"><button type=\"button\" class=\"btn btn-link text-primary\"><fa-icon class=\"ng-fa-icon\"><svg data-prefix=\"far\" data-icon=\"chevron-left\" class=\"svg-inline--fa fa-chevron-left fa-undefined fa-pull-undefined\" role=\"img\" viewBox=\"0 0 320 512\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M7.5 239c-9.4 9.4-9.4 24.6 0 33.9l200 200c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-183-183 183-183c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0L7.5 239z\"></path></svg></fa-icon></button><div class=\"mx-auto d-inline\">Terms &amp; conditions</div><button type=\"button\" class=\"btn btn-link text-primary invisible\"><fa-icon class=\"ng-fa-icon\"><svg data-prefix=\"far\" data-icon=\"chevron-left\" class=\"svg-inline--fa fa-chevron-left fa-undefined fa-pull-undefined\" role=\"img\" viewBox=\"0 0 320 512\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M7.5 239c-9.4 9.4-9.4 24.6 0 33.9l200 200c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-183-183 183-183c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0L7.5 239z\"></path></svg></fa-icon></button></nav><!----></sc-header><div _ngcontent-ng-c2629771415=\"\" class=\"modal-body modal-container\"><!----><!----><div _ngcontent-ng-c2629771415=\"\" class=\"mx-auto text-center ps-2 mb-3\"><sc-logo-image _ngcontent-ng-c2629771415=\"\"><div class=\"logo-thumbnail\"><img alt=\"\" class=\"img-thumbnail border-0 bg-transparent\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAA4CAYAAAAyyeyDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATSSURBVHhe7ZtLUtwwEIZznVT2hH0e6zz2gX0I+5B9yAGSAwT2IQeAA4QcYC7ACVhmPOPo19hDI1rqlsY2MOq/6q8CbEtWf3q0ZfOkNVUhA12JDHQlMtCVyEBXIgNdiQz0I9FyNmubg8P239NnK+/stovvP9r2+ro7Iy0DXaD5h72bgDNe/rnszhxGgAywXF3zt++7s9Iy0AWaGvT8zTu2nt4NRrYgA12gKUEvr67YOqjnL193Z8dloAs0KWhXFldHaEkGukAPDvTO8+7suAx0gSZdo11WDZBcPb2bj5+6k+My0AWaOhlDssXV4+06AdZxSQa6QFODhpqvx3frAmRlXQa6QPcBGsLIXfw88SN88etMvVkCGegC3RfoTVQEGj1reflXdE6PW8tdszj77bf3mqMv7Xxv3/8M+zInEmCt2zKbdX9dKQc0fvZtOTi8aYtrX05sUP/6XjgPtUajoOb4m99u4xoWc07P9nXQvdyYd3b9vRR1IkYIYg8ius3owFJpQC/Oz/1GBne8t7YdUn2D7IyxSYDSKtCuoWgwd33S2NTHOlUoXIsRxpYdOBd0zoDwe9UC7NFBN5+P2IK1FkG7BubOEqExvWcJHUszcxDngs61BHtU0MlnN6WToAeA3FsLO/UWKOWxQcOYOWMaFbS0G6NxCjR2c7hrSo3HjpRKIcNTgIZjSdVooAGIKzDXMdBDzBaco9knZg8hMUp5KtBYKjmNBhoZI1dgrlnQLuilI0tyLFCbdqypQCMunMYD7TJSrsDemk30mNRBd0sHwOH8nGk+HNX4PbtjuboR3N7h+qkFjfvGkuJ3s5SJLTc4RgMtTd3IWkslfS0B+5EZZKFYY1XXBo2WOm1vBBMzmUYa0FzOoLkX7rrRQPvplSnwlt0o8btVsXWRkR9dXFnEaFRMq9GZThL9owqRZjaITfkxSYFPtUG6Hw7aeKCdtFMNjMcbDXDN2i+Vg0Zx11FTccepU1Bi2iTw0qjm7mdU0KukKe8RSwIuQZq/eNWdGZdmVqDTPnecWjtdU0mBT5UpLYvTg3ZaPXvmP08vTk67Em5LBM00khN3LXWf0OR2Cq2kwLNPG50eJGgIwZIq4sztVk0NWpNrGOhA/iWAm1q5imIOM0gRtOKzVT/LMNdSU3HHqceYuh816F4IjFTx2tgAICNGlYwlggRp3qZRiVn63n53pl5VgO6FKV2TmWMm6KVZM1NvcjSjOQyU6vEq8w1YVaB7if8uEu4qKTY9ABudgsrPBoodrnC5UG+Y4OuPiwvVmr01oDFy2E9WAuOTGCn44Y1L6zQ1gANAzguJsIP4hKzgyYE6bMPWgJYKzjH3njU3qdM6tsOV07k4G2iFS/d8s+1G7Z3RTKRZMmI20ArHgp+zxaoxTfo4+USwcAo30IJTn8dg7dxklFEn6yHyb8AKlg0DnTAgihmsO57zrpmzppG3VFCngY7Y36wEmQg3mjutYmSW7Gr1QsC17QyDL1231aAReKy7qUamhDXUr9vSThbqQcMyOlJKqBcJI0Z5bFrfWtD+OdrdkOShgh0KZePmqQEjlVUPLdS1bquLB5UUn2Rc3DHumrWDuiCRhyIuLGjT9slAVyIDXYkMdCUy0JXIQFciA12JDHQlMtCVyEBXIgNdhdr2P1SGPc2UtrXrAAAAAElFTkSuQmCC\"></div><!----><!----><!----><!----></sc-logo-image><!----></div><div _ngcontent-ng-c2629771415=\"\" class=\"scs-small\"><div _ngcontent-ng-c2629771415=\"\" class=\"privacy-policy-content\"><p>ONLINE BOOKING SERVICE TERMS &amp; CONDITIONS</p>\n<p>Your Account<br>-----------------<br>You will need to register an account with us to use our online booking service.&nbsp; You will need a valid email address/username and password for your account.&nbsp; You are responsible for maintaining the confidentiality of your account, username and password and for restricting access to your computer.&nbsp; You agree to accept responsibility for all activities that occur under your account, username and/or password.&nbsp; You agree to provide only accurate, truthful information.</p>\n<p>&nbsp;We reserve the right to refuse service and/or terminate accounts without prior notice if you violate these terms and conditions or if we decide, in our sole discretion, that it would be in our salon’s best interests to do so.</p>\n<p>&nbsp;Use of Online Booking Service<br>-------------------------------------<br>You may only use the Online Booking Service if you are an adult or you are above the age of consent or you have the consent of an adult.&nbsp; You are responsible for maintaining the secrecy of your passwords, login and account information.&nbsp; You will be financially accountable for all uses of our site by you and anyone using your password and login information.&nbsp; You may only use the Online Booking Service to make legitimate appointments.</p>\n<p>We will use our reasonable commercial efforts to keep the Online Booking Service available on a 24 hour/7days a week basis, subject to necessary scheduled downtime for maintenance, unscheduled maintenance and system outages.&nbsp; Your access to our Online Booking Service may not be uninterrupted or available at all times.&nbsp; We cannot promise that our Online Booking Service will be error-free, that defects or errors will be corrected or that our site or the servers that make it available are free from viruses or other harmful components.&nbsp; You will not use any device, software or routine that interferes or attempts to interfere with the normal operation of this site or take any action that imposes an unreasonable load on our computer equipment.</p>\n<p>&nbsp;No-Show Policy<br>--------------------<br>We are committed to providing superior quality services to our clients. Customers are asked to cancel any appointments that they will be unable to honour at least 24 hours in advance of their reservation.&nbsp; You may be required to telephone the salon directly to cancel.</p></div><!----></div><!----><!----><!----><!----><!----><!----><!----><div _ngcontent-ng-c2629771415=\"\" class=\"mx-auto text-center ps-2 mt-3 mb-3\"></div><!----><!----><!----><!----><div _ngcontent-ng-c2629771415=\"\" class=\"scs-small\"></div><!----><!----><!----></div></sc-terms-condition><!----></div><div class=\"border-left col-3 col-md-5 d-none d-sm-block p-0 site-detail-page\"><sc-site-detail class=\"border-0 d-flex flex-grow-1 h-100 modal-content rounded-0\"><sc-modal-body class=\"modal-body modal-container\"><!----><!----><div><img alt=\"\" class=\"w-100\" src=\"https://sc-ols.s3.amazonaws.com/company-21295/olb-feature-image.png?2026-05-10T11:00:00\"></div><!----><div class=\"d-flex justify-content-center align-items-center px-3\"><div class=\"w-25\"><!----><!----><!----><sc-logo-image><div class=\"logo-thumbnail\"><img alt=\"\" class=\"img-thumbnail border-0 bg-transparent\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAA4CAYAAAAyyeyDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATSSURBVHhe7ZtLUtwwEIZznVT2hH0e6zz2gX0I+5B9yAGSAwT2IQeAA4QcYC7ACVhmPOPo19hDI1rqlsY2MOq/6q8CbEtWf3q0ZfOkNVUhA12JDHQlMtCVyEBXIgNdiQz0I9FyNmubg8P239NnK+/stovvP9r2+ro7Iy0DXaD5h72bgDNe/rnszhxGgAywXF3zt++7s9Iy0AWaGvT8zTu2nt4NRrYgA12gKUEvr67YOqjnL193Z8dloAs0KWhXFldHaEkGukAPDvTO8+7suAx0gSZdo11WDZBcPb2bj5+6k+My0AWaOhlDssXV4+06AdZxSQa6QFODhpqvx3frAmRlXQa6QPcBGsLIXfw88SN88etMvVkCGegC3RfoTVQEGj1reflXdE6PW8tdszj77bf3mqMv7Xxv3/8M+zInEmCt2zKbdX9dKQc0fvZtOTi8aYtrX05sUP/6XjgPtUajoOb4m99u4xoWc07P9nXQvdyYd3b9vRR1IkYIYg8ius3owFJpQC/Oz/1GBne8t7YdUn2D7IyxSYDSKtCuoWgwd33S2NTHOlUoXIsRxpYdOBd0zoDwe9UC7NFBN5+P2IK1FkG7BubOEqExvWcJHUszcxDngs61BHtU0MlnN6WToAeA3FsLO/UWKOWxQcOYOWMaFbS0G6NxCjR2c7hrSo3HjpRKIcNTgIZjSdVooAGIKzDXMdBDzBaco9knZg8hMUp5KtBYKjmNBhoZI1dgrlnQLuilI0tyLFCbdqypQCMunMYD7TJSrsDemk30mNRBd0sHwOH8nGk+HNX4PbtjuboR3N7h+qkFjfvGkuJ3s5SJLTc4RgMtTd3IWkslfS0B+5EZZKFYY1XXBo2WOm1vBBMzmUYa0FzOoLkX7rrRQPvplSnwlt0o8btVsXWRkR9dXFnEaFRMq9GZThL9owqRZjaITfkxSYFPtUG6Hw7aeKCdtFMNjMcbDXDN2i+Vg0Zx11FTccepU1Bi2iTw0qjm7mdU0KukKe8RSwIuQZq/eNWdGZdmVqDTPnecWjtdU0mBT5UpLYvTg3ZaPXvmP08vTk67Em5LBM00khN3LXWf0OR2Cq2kwLNPG50eJGgIwZIq4sztVk0NWpNrGOhA/iWAm1q5imIOM0gRtOKzVT/LMNdSU3HHqceYuh816F4IjFTx2tgAICNGlYwlggRp3qZRiVn63n53pl5VgO6FKV2TmWMm6KVZM1NvcjSjOQyU6vEq8w1YVaB7if8uEu4qKTY9ABudgsrPBoodrnC5UG+Y4OuPiwvVmr01oDFy2E9WAuOTGCn44Y1L6zQ1gANAzguJsIP4hKzgyYE6bMPWgJYKzjH3njU3qdM6tsOV07k4G2iFS/d8s+1G7Z3RTKRZMmI20ArHgp+zxaoxTfo4+USwcAo30IJTn8dg7dxklFEn6yHyb8AKlg0DnTAgihmsO57zrpmzppG3VFCngY7Y36wEmQg3mjutYmSW7Gr1QsC17QyDL1231aAReKy7qUamhDXUr9vSThbqQcMyOlJKqBcJI0Z5bFrfWtD+OdrdkOShgh0KZePmqQEjlVUPLdS1bquLB5UUn2Rc3DHumrWDuiCRhyIuLGjT9slAVyIDXYkMdCUy0JXIQFciA12JDHQlMtCVyEBXIgNdhdr2P1SGPc2UtrXrAAAAAElFTkSuQmCC\"></div><!----><!----><!----><!----></sc-logo-image><!----></div><div class=\"font-weight-bold px-2\"> Sochi Hair </div></div><div class=\"w-full border-bottom mb-3\"></div><sc-cart _nghost-ng-c1183149005=\"\"><!----><!----><!----></sc-cart><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></sc-modal-body></sc-site-detail></div></div><!----><!----><!----></sc-site-wrapper><!----></div></div></div><!----><!----><!----><!----><!----><!----><!----></sc-booking><!----></scs-widget>\n    </section>\n\n\n</body></html>",
+    "images": [
+      "https://sc-ols.s3.amazonaws.com/company-21295/olb-feature-image.png?2026-05-10T11:00:00",
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAA4CAYAAAAyyeyDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATSSURBVHhe7ZtLUtwwEIZznVT2hH0e6zz2gX0I+5B9yAGSAwT2IQeAA4QcYC7ACVhmPOPo19hDI1rqlsY2MOq/6q8CbEtWf3q0ZfOkNVUhA12JDHQlMtCVyEBXIgNdiQz0I9FyNmubg8P239NnK+/stovvP9r2+ro7Iy0DXaD5h72bgDNe/rnszhxGgAywXF3zt++7s9Iy0AWaGvT8zTu2nt4NRrYgA12gKUEvr67YOqjnL193Z8dloAs0KWhXFldHaEkGukAPDvTO8+7suAx0gSZdo11WDZBcPb2bj5+6k+My0AWaOhlDssXV4+06AdZxSQa6QFODhpqvx3frAmRlXQa6QPcBGsLIXfw88SN88etMvVkCGegC3RfoTVQEGj1reflXdE6PW8tdszj77bf3mqMv7Xxv3/8M+zInEmCt2zKbdX9dKQc0fvZtOTi8aYtrX05sUP/6XjgPtUajoOb4m99u4xoWc07P9nXQvdyYd3b9vRR1IkYIYg8ius3owFJpQC/Oz/1GBne8t7YdUn2D7IyxSYDSKtCuoWgwd33S2NTHOlUoXIsRxpYdOBd0zoDwe9UC7NFBN5+P2IK1FkG7BubOEqExvWcJHUszcxDngs61BHtU0MlnN6WToAeA3FsLO/UWKOWxQcOYOWMaFbS0G6NxCjR2c7hrSo3HjpRKIcNTgIZjSdVooAGIKzDXMdBDzBaco9knZg8hMUp5KtBYKjmNBhoZI1dgrlnQLuilI0tyLFCbdqypQCMunMYD7TJSrsDemk30mNRBd0sHwOH8nGk+HNX4PbtjuboR3N7h+qkFjfvGkuJ3s5SJLTc4RgMtTd3IWkslfS0B+5EZZKFYY1XXBo2WOm1vBBMzmUYa0FzOoLkX7rrRQPvplSnwlt0o8btVsXWRkR9dXFnEaFRMq9GZThL9owqRZjaITfkxSYFPtUG6Hw7aeKCdtFMNjMcbDXDN2i+Vg0Zx11FTccepU1Bi2iTw0qjm7mdU0KukKe8RSwIuQZq/eNWdGZdmVqDTPnecWjtdU0mBT5UpLYvTg3ZaPXvmP08vTk67Em5LBM00khN3LXWf0OR2Cq2kwLNPG50eJGgIwZIq4sztVk0NWpNrGOhA/iWAm1q5imIOM0gRtOKzVT/LMNdSU3HHqceYuh816F4IjFTx2tgAICNGlYwlggRp3qZRiVn63n53pl5VgO6FKV2TmWMm6KVZM1NvcjSjOQyU6vEq8w1YVaB7if8uEu4qKTY9ABudgsrPBoodrnC5UG+Y4OuPiwvVmr01oDFy2E9WAuOTGCn44Y1L6zQ1gANAzguJsIP4hKzgyYE6bMPWgJYKzjH3njU3qdM6tsOV07k4G2iFS/d8s+1G7Z3RTKRZMmI20ArHgp+zxaoxTfo4+USwcAo30IJTn8dg7dxklFEn6yHyb8AKlg0DnTAgihmsO57zrpmzppG3VFCngY7Y36wEmQg3mjutYmSW7Gr1QsC17QyDL1231aAReKy7qUamhDXUr9vSThbqQcMyOlJKqBcJI0Z5bFrfWtD+OdrdkOShgh0KZePmqQEjlVUPLdS1bquLB5UUn2Rc3DHumrWDuiCRhyIuLGjT9slAVyIDXYkMdCUy0JXIQFciA12JDHQlMtCVyEBXIgNdhdr2P1SGPc2UtrXrAAAAAElFTkSuQmCC"
+    ]
+  },
+  "scrape_id": "019e11bd-2b0d-755f-971b-0e77118f13cc",
+  "id": "YGs0X9vkZAxLBz-pctd4a",
+  "startedAt": "2026-05-10T11:54:29.691Z",
+  "endedAt": "2026-05-10T11:54:57.153Z",
+  "endpoint": "scrape",
+  "formState": {
+    "parseFile": null,
+    "parseFileMeta": null,
+    "extractSetupCompleted": false,
+    "urls": [],
+    "extractSchema": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "company_mission": {
+          "type": "string"
+        },
+        "supports_sso": {
+          "type": "boolean"
+        },
+        "is_open_source": {
+          "type": "boolean"
+        },
+        "is_in_yc": {
+          "type": "boolean"
+        }
+      }
+    },
+    "extractPrompt": "Extract the company details, following the schema.",
+    "enableWebSearch": false,
+    "constrainUrls": false,
+    "options": {
+      "onlyMainContent": false,
+      "parsePDF": true,
+      "stealthMode": false,
+      "excludeTags": [],
+      "includeTags": [],
+      "waitFor": "",
+      "timeout": "",
+      "maxAge": "2 days",
+      "ignoreSitemap": false,
+      "crawlEntireDomain": false,
+      "sitemap": "include",
+      "limit": "10",
+      "maxDepth": "",
+      "excludePaths": [],
+      "includePaths": [],
+      "includeSubdomains": false,
+      "search": "",
+      "scrapeContentFromSearchResults": true,
+      "timeBasedSearch": "",
+      "location": "",
+      "prompt": ""
+    },
+    "formats": [
+      "markdown",
+      "branding",
+      "images",
+      "html"
+    ],
+    "sources": [
+      "web"
+    ],
+    "categories": [],
+    "jsonSchema": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "company_name": {
+          "type": "string"
+        },
+        "company_description": {
+          "type": "string"
+        }
+      }
+    },
+    "jsonPrompt": "",
+    "questionPrompt": "",
+    "agent": {},
+    "url": "home.shortcutssoftware.com/sochihair#/_h/sites/59692/terms-conditions",
+    "endpoint": "scrape"
+  },
+  "status": "success",
+  "version": "C5qgq-BOa13j7d9umDC_C",
+  "isPreview": false
+}

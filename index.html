@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sochi Hair | Est. 1987</title>
+  <meta name="description" content="Sochi Hair — experienced, trusted hair salon established in 1987. Book your appointment online today.">
+  <link rel="icon" href="LOGO.png">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --red: #E22E30;
+      --black: #111111;
+      --mid: #555555;
+      --light: #f7f7f7;
+      --white: #ffffff;
+      --rule: #e0e0e0;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      color: var(--black);
+      background: var(--white);
+      font-size: 15px;
+      line-height: 1.75;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+
+    /* ── Nav ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--white);
+      border-bottom: 1px solid var(--rule);
+      padding: 0 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+    }
+
+    .nav-logo img {
+      height: 36px;
+      width: auto;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 40px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--black);
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--red); }
+
+    .nav-book {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--white);
+      background: var(--red);
+      padding: 10px 24px;
+      transition: background 0.2s;
+    }
+
+    .nav-book:hover { background: #c42527; }
+
+    /* ── Hero ── */
+    .hero {
+      padding: 120px 64px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+      min-height: 560px;
+    }
+
+    .hero-text {}
+
+    .hero-eyebrow {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 24px;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(40px, 5vw, 68px);
+      font-weight: 400;
+      line-height: 1.08;
+      color: var(--black);
+      margin-bottom: 28px;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--red);
+    }
+
+    .hero-sub {
+      font-size: 15px;
+      color: var(--mid);
+      max-width: 400px;
+      margin-bottom: 44px;
+      line-height: 1.85;
+      font-weight: 300;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--white);
+      background: var(--black);
+      padding: 14px 36px;
+      transition: background 0.2s;
+    }
+
+    .btn-primary:hover { background: var(--red); }
+
+    .btn-outline {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--black);
+      border: 1px solid var(--black);
+      padding: 13px 36px;
+      margin-left: 16px;
+      transition: all 0.2s;
+    }
+
+    .btn-outline:hover {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .hero-image {
+      background: var(--light);
+      height: 520px;
+      overflow: hidden;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* ── Divider ── */
+    .rule {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 0 64px;
+    }
+
+    /* ── About ── */
+    .about {
+      padding: 96px 64px;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 80px;
+      align-items: start;
+    }
+
+    .about-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--red);
+      padding-top: 8px;
+    }
+
+    .about-content h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(28px, 3vw, 44px);
+      font-weight: 400;
+      line-height: 1.2;
+      color: var(--black);
+      margin-bottom: 24px;
+    }
+
+    .about-content p {
+      font-size: 15px;
+      color: var(--mid);
+      line-height: 1.9;
+      font-weight: 300;
+      max-width: 560px;
+      margin-bottom: 16px;
+    }
+
+    .about-stat {
+      display: flex;
+      gap: 56px;
+      margin-top: 40px;
+      padding-top: 40px;
+      border-top: 1px solid var(--rule);
+    }
+
+    .stat-item {}
+
+    .stat-number {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      font-weight: 400;
+      color: var(--red);
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+
+    .stat-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--mid);
+    }
+
+    /* ── Services ── */
+    .services {
+      background: var(--black);
+      padding: 96px 64px;
+    }
+
+    .services-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 64px;
+    }
+
+    .services-header h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(28px, 3vw, 44px);
+      font-weight: 400;
+      color: var(--white);
+    }
+
+    .services-header p {
+      font-size: 13px;
+      color: rgba(255,255,255,0.45);
+      font-weight: 300;
+      max-width: 280px;
+      text-align: right;
+      line-height: 1.7;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: rgba(255,255,255,0.08);
+    }
+
+    .service-card {
+      background: var(--black);
+      padding: 44px 36px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .service-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 13px;
+      color: var(--red);
+      margin-bottom: 20px;
+      font-style: italic;
+    }
+
+    .service-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--white);
+      margin-bottom: 12px;
+    }
+
+    .service-card p {
+      font-size: 13px;
+      color: rgba(255,255,255,0.45);
+      line-height: 1.75;
+      font-weight: 300;
+    }
+
+    /* ── Book ── */
+    .book {
+      padding: 96px 64px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+
+    .book h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(28px, 3.5vw, 52px);
+      font-weight: 400;
+      line-height: 1.15;
+      color: var(--black);
+      margin-bottom: 20px;
+    }
+
+    .book h2 em { font-style: italic; color: var(--red); }
+
+    .book p {
+      font-size: 15px;
+      color: var(--mid);
+      font-weight: 300;
+      line-height: 1.85;
+      margin-bottom: 36px;
+    }
+
+    .book-ctas { display: flex; gap: 16px; flex-wrap: wrap; }
+
+    .book-policy {
+      background: var(--light);
+      padding: 48px 44px;
+    }
+
+    .book-policy h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--black);
+      margin-bottom: 20px;
+    }
+
+    .book-policy p {
+      font-size: 13px;
+      color: var(--mid);
+      line-height: 1.85;
+      font-weight: 300;
+      margin-bottom: 14px;
+    }
+
+    .book-policy p:last-child { margin-bottom: 0; }
+
+    /* ── Footer ── */
+    footer {
+      background: var(--black);
+      padding: 56px 64px;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 48px;
+      margin-bottom: 48px;
+    }
+
+    .footer-logo img {
+      height: 32px;
+      filter: brightness(0) invert(1);
+      opacity: 0.75;
+    }
+
+    .footer-tagline {
+      font-size: 12px;
+      color: rgba(255,255,255,0.35);
+      margin-top: 12px;
+      font-weight: 300;
+    }
+
+    .footer-col h4 {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 16px;
+    }
+
+    .footer-col a,
+    .footer-col p {
+      display: block;
+      font-size: 13px;
+      color: rgba(255,255,255,0.45);
+      font-weight: 300;
+      margin-bottom: 8px;
+      transition: color 0.2s;
+      line-height: 1.6;
+    }
+
+    .footer-col a:hover { color: rgba(255,255,255,0.85); }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding-top: 28px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      color: rgba(255,255,255,0.25);
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 1024px) {
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 900px) {
+      nav, .rule { padding-left: 28px; padding-right: 28px; }
+      .hero, .about, .book, .services, footer { padding-left: 28px; padding-right: 28px; }
+      .hero { grid-template-columns: 1fr; min-height: auto; padding-top: 72px; padding-bottom: 72px; }
+      .hero-image { height: 360px; }
+      .about { grid-template-columns: 1fr; gap: 32px; }
+      .book { grid-template-columns: 1fr; gap: 48px; }
+      .services-header { flex-direction: column; align-items: flex-start; gap: 16px; }
+      .services-header p { text-align: left; }
+      .footer-inner { flex-direction: column; gap: 36px; }
+      .footer-bottom { flex-direction: column; }
+    }
+
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+      .services-grid { grid-template-columns: 1fr; }
+      .about-stat { flex-wrap: wrap; gap: 32px; }
+      .btn-outline { margin-left: 0; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <a class="nav-logo" href="#">
+    <img src="LOGO.png" alt="Sochi Hair">
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#book">Booking</a></li>
+  </ul>
+  <a class="nav-book" href="https://home.shortcutssoftware.com/sochihair" target="_blank" rel="noopener">Book Online</a>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+  <div class="hero-text">
+    <p class="hero-eyebrow">Est. 1987 &mdash; Melbourne</p>
+    <h1>Your hair,<br><em>beautifully</em><br>done.</h1>
+    <p class="hero-sub">Trusted by Melbourne clients for over 35 years. Expert cuts, colour, and styling from a team that listens.</p>
+    <div>
+      <a class="btn-primary" href="https://home.shortcutssoftware.com/sochihair" target="_blank" rel="noopener">Book an Appointment</a>
+      <a class="btn-outline" href="#services">Our Services</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="https://sc-ols.s3.amazonaws.com/company-21295/olb-feature-image.png" alt="Sochi Hair Salon">
+  </div>
+</div>
+
+<hr class="rule">
+
+<!-- About -->
+<section class="about" id="about">
+  <div>
+    <p class="about-label">About Us</p>
+  </div>
+  <div class="about-content">
+    <h2>A salon built on<br>craft and trust.</h2>
+    <p>Sochi Hair has been a cornerstone of the Melbourne hair scene since 1987. What began as a commitment to quality and genuine care has grown into a decades-long reputation for excellence.</p>
+    <p>We believe great hair starts with a great conversation. Our team takes the time to understand you — your lifestyle, your vision, and what makes you feel confident — before a single scissor is lifted.</p>
+    <div class="about-stat">
+      <div class="stat-item">
+        <div class="stat-number">35+</div>
+        <div class="stat-label">Years in business</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">1987</div>
+        <div class="stat-label">Year established</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Client focused</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- Services -->
+<section class="services" id="services">
+  <div class="services-header">
+    <h2>Our Services</h2>
+    <p>Every service is tailored to you. No templates, no shortcuts.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-num">01</div>
+      <h3>Cut &amp; Style</h3>
+      <p>Precision cuts for all hair types and lengths. Whether a subtle trim or a full transformation, we cut to suit your face and lifestyle.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-num">02</div>
+      <h3>Colour</h3>
+      <p>From rich, all-over colour to delicate toning, our colourists blend expertise with the latest techniques for results that last.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-num">03</div>
+      <h3>Highlights &amp; Balayage</h3>
+      <p>Sun-kissed dimension or bold contrast — hand-painted balayage and foil highlights for a naturally beautiful finish.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-num">04</div>
+      <h3>Treatments</h3>
+      <p>Restore shine, strength and softness with our in-salon treatments. Perfect after colour or as a standalone nourishing service.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-num">05</div>
+      <h3>Blow Dry &amp; Finish</h3>
+      <p>A flawless blow dry for any occasion. Smooth, voluminous or beachy — styled the way you love it.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-num">06</div>
+      <h3>Formal Styling</h3>
+      <p>Bridal, event, or any special occasion — we create elegant up-dos and polished styles that hold all day.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Book -->
+<section class="book" id="book">
+  <div>
+    <h2>Ready to<br>book your<br><em>next visit?</em></h2>
+    <p>Booking online is quick and easy. Choose your service, pick a time that works for you, and we'll take care of the rest.</p>
+    <div class="book-ctas">
+      <a class="btn-primary" href="https://home.shortcutssoftware.com/sochihair" target="_blank" rel="noopener">Book Online Now</a>
+    </div>
+  </div>
+  <div class="book-policy">
+    <h3>Good to know</h3>
+    <p>We ask that you cancel any appointment at least <strong>24 hours in advance</strong> if you're unable to attend. This allows us to offer your time to another client.</p>
+    <p>To cancel, please call the salon directly or use the online booking portal.</p>
+    <p>New clients are welcome — no account needed to browse available times, though you will need to register to complete your booking.</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">
+        <img src="LOGO.png" alt="Sochi Hair">
+      </div>
+      <p class="footer-tagline">Established 1987 &mdash; Melbourne</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#book">Booking</a>
+    </div>
+    <div class="footer-col">
+      <h4>Book</h4>
+      <a href="https://home.shortcutssoftware.com/sochihair" target="_blank" rel="noopener">Book Online</a>
+      <p>Online bookings via<br>Shortcuts Software</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2024 Sochi Hair. All Rights Reserved.</span>
+    <span>Est. 1987 &bull; Melbourne</span>
+  </div>
+</footer>
+
+</body>
+</html>
