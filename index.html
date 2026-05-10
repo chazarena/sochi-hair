@@ -170,6 +170,21 @@
       object-fit: cover;
     }
 
+    /* ── Tagline Strip ── */
+    .tagline-strip {
+      background: var(--red);
+      padding: 18px 64px;
+      text-align: center;
+    }
+
+    .tagline-strip p {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--white);
+    }
+
     /* ── Divider ── */
     .rule {
       border: none;
@@ -239,6 +254,58 @@
       text-transform: uppercase;
       color: var(--mid);
     }
+
+    /* ── Visit ── */
+    .visit {
+      background: var(--light);
+      padding: 80px 64px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 2px;
+    }
+
+    .visit-card {
+      background: var(--white);
+      padding: 40px 36px;
+      border-top: 3px solid var(--red);
+    }
+
+    .visit-card h4 {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 16px;
+    }
+
+    .visit-card p,
+    .visit-card a {
+      font-size: 14px;
+      color: var(--mid);
+      line-height: 1.9;
+      font-weight: 300;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .visit-card a { color: var(--black); font-weight: 500; }
+    .visit-card a:hover { color: var(--red); }
+
+    .hours-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      color: var(--mid);
+      font-weight: 300;
+      padding: 5px 0;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .hours-row:last-child { border-bottom: none; }
+
+    .hours-row span:last-child { color: var(--black); font-weight: 500; }
+    .hours-row.closed span:last-child { color: #bbb; font-weight: 300; }
 
     /* ── Services ── */
     .services {
@@ -456,11 +523,13 @@
 
     @media (max-width: 900px) {
       nav, .rule { padding-left: 28px; padding-right: 28px; }
-      .hero, .about, .book, .services, footer { padding-left: 28px; padding-right: 28px; }
+      .hero, .about, .book, .services, .visit, footer { padding-left: 28px; padding-right: 28px; }
+      .tagline-strip { padding-left: 28px; padding-right: 28px; }
       .hero { grid-template-columns: 1fr; min-height: auto; padding-top: 72px; padding-bottom: 72px; }
       .hero-image { height: 360px; }
       .about { grid-template-columns: 1fr; gap: 32px; }
       .book { grid-template-columns: 1fr; gap: 48px; }
+      .visit { grid-template-columns: 1fr; }
       .services-header { flex-direction: column; align-items: flex-start; gap: 16px; }
       .services-header p { text-align: left; }
       .footer-inner { flex-direction: column; gap: 36px; }
@@ -506,6 +575,10 @@
   </div>
 </div>
 
+<div class="tagline-strip">
+  <p>Everybody deserves a great haircut once in a lifetime&hellip; or every 6 weeks</p>
+</div>
+
 <hr class="rule">
 
 <!-- About -->
@@ -533,6 +606,31 @@
     </div>
   </div>
 </section>
+
+<div class="visit">
+  <div class="visit-card">
+    <h4>Find Us</h4>
+    <p>1824 Malvern Rd<br>Malvern East VIC 3145</p>
+    <a href="tel:0398857030">(03) 9885 7030</a>
+    <a href="mailto:sochidesigns@bigpond.com">sochidesigns@bigpond.com</a>
+    <a href="http://sochihair.com.au/" target="_blank" rel="noopener">sochihair.com.au</a>
+  </div>
+  <div class="visit-card">
+    <h4>Trading Hours</h4>
+    <div class="hours-row closed"><span>Monday</span><span>Closed</span></div>
+    <div class="hours-row closed"><span>Tuesday</span><span>Closed</span></div>
+    <div class="hours-row"><span>Wednesday</span><span>9:00 AM – 6:30 PM</span></div>
+    <div class="hours-row"><span>Thursday</span><span>9:00 AM – 8:30 PM</span></div>
+    <div class="hours-row"><span>Friday</span><span>9:00 AM – 6:30 PM</span></div>
+    <div class="hours-row"><span>Saturday</span><span>7:30 AM – 3:30 PM</span></div>
+    <div class="hours-row closed"><span>Sunday</span><span>Closed</span></div>
+  </div>
+  <div class="visit-card">
+    <h4>Book Your Visit</h4>
+    <p>Walk-ins welcome, but booking ahead ensures you get your preferred time and stylist.</p>
+    <a class="btn-primary" href="https://home.shortcutssoftware.com/sochihair#/_h/sites/59692/services" target="_blank" rel="noopener" style="margin-top:20px;">Book Online</a>
+  </div>
+</div>
 
 <hr class="rule">
 
@@ -626,6 +724,13 @@
       <h4>Book</h4>
       <a href="https://home.shortcutssoftware.com/sochihair#/_h/sites/59692/services" target="_blank" rel="noopener">Book Online</a>
       <p>Online bookings via<br>Shortcuts Software</p>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>1824 Malvern Rd<br>Malvern East VIC 3145</p>
+      <a href="tel:0398857030">(03) 9885 7030</a>
+      <a href="mailto:sochidesigns@bigpond.com">sochidesigns@bigpond.com</a>
+      <p style="margin-top:10px; font-size:11px; color:rgba(255,255,255,0.25);">Wed – Sat &nbsp;|&nbsp; Thu late nights</p>
     </div>
   </div>
   <div class="footer-bottom">
